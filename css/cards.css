@@ -27,7 +27,7 @@ body{
     font-family: 'Overpass', sans-serif;
 }
 
-/* Construccion de estilos para la primera card */
+/* CARD 1: RATING */
 .container{
     align-items: center;
     display: flex;
@@ -37,6 +37,7 @@ body{
 }
 
 .card{
+    display: none;
     background-color: var(--dark-blue);
     border-radius: 1rem;
     color: var(--white);
@@ -121,4 +122,46 @@ body{
     cursor: pointer;
     background-color: var(--white);
     color: var(--my-orange);
+}
+
+/* Card 2: THANK YOU! */
+
+.card-thanks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--dark-blue);
+    border-radius: 1rem;
+    color: var(--white);
+    padding: 1.35rem;
+    width: 86.9%;
+    height: 41.1%;
+}
+.thanks-logo{
+    margin-top: .9rem;
+}
+
+.thanks-logo img{
+    height: 85%;
+}
+
+.selected-msg{
+    background-color: var(--medium-grey);
+    color: var(--my-orange);
+    font-size: .9rem;
+    margin-top: .4rem;
+    padding: .5rem .8rem;
+    border-radius: 1rem;
+}
+
+.thanks-title{
+    margin-top: 1.85rem;
+    font-size: 1.5rem;
+}
+
+.thanks-msg{
+    margin-top: .7rem;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 0.95rem;
 }
