@@ -38,7 +38,6 @@ body{
 /* CARD 1: RATING */
 
 .card{
-    /* display: none; */
     background-color: var(--dark-blue);
     border-radius: 1rem;
     color: var(--white);
@@ -145,7 +144,6 @@ body{
     height: 24rem;
     min-width: 21.75rem;
     min-height: 24rem;
-    display: none;
 }
 .thanks-logo{
     margin-top: .9rem;
@@ -174,6 +172,10 @@ body{
     text-align: center;
     line-height: 1.5rem;
     font-size: 0.95rem;
+}
+
+.hide{
+    display: none;
 }
 
 /* Card 1: media query para 1440px (desktop) */
