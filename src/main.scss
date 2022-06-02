@@ -1,0 +1,30 @@
+@import 'variables';
+
+/* Estilos generales del documento */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: $very-dark-blue;
+    font-size: 15px;
+}
+
+body{
+    font-family: 'Overpass', sans-serif;
+    
+    .container{
+        align-items: center;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        flex-direction: column;
+        width: 100vw;
+    }
+}
+
+@import 'card';
+@import 'hidden-card';

@@ -1,0 +1,90 @@
+/* CARD 2: THANK YOU! */
+
+.card-thanks {
+  align-items: center;
+  background-color: $dark-blue;
+  border-radius: 1rem;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  height: 24rem;
+  min-height: 24rem;
+  min-width: 21.75rem;
+  padding: 1.35rem;
+  width: 21.75rem;
+
+  /* width: 86.9%; */
+  /* height: 41.1%;  */
+
+  .thanks-logo {
+    margin-top: 0.9rem;
+    img {
+      height: 85%;
+    }
+  }
+
+  .selected-msg {
+    background-color: $medium-grey;
+    color: $my-orange;
+    font-size: 0.9rem;
+    margin-top: 0.4rem;
+    padding: 0.5rem 0.8rem;
+    border-radius: 1rem;
+  }
+
+  .thanks-title {
+    margin-top: 1.85rem;
+    font-size: 1.5rem;
+  }
+
+  .thanks-msg {
+    margin-top: 0.7rem;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 0.95rem;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+/* CARD 2: media query para 1440px (laptop) */
+
+@media screen and (min-width: 768px) {
+  .card-thanks {
+    border-radius: 2rem;
+    height: 27.5rem;
+    min-height: 27.5rem;
+    min-width: 27.5rem;
+    padding: 1.35rem 2.3rem;
+    width: 27.5rem;
+
+    .thanks-logo {
+      margin-top: 1.55rem;
+
+      img {
+        height: 95%;
+      }
+    }
+
+    .selected-msg {
+      font-size: 1rem;
+      margin-top: 1.75rem;
+      padding: 0.45rem 1.3rem;
+      border-radius: 1rem;
+    }
+
+    .thanks-title {
+      margin-top: 2.3rem;
+      font-size: 1.83rem;
+    }
+
+    .thanks-msg {
+      margin-top: 0.7rem;
+      font-size: 1rem;
+    }
+  }
+}
